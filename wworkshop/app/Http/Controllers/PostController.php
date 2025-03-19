@@ -45,9 +45,10 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Post $post)
+    public function update(Request $request, Post $post)
     {
-        //
+        $post->update($request->all());
+        return $post;
     }
 
     /**
