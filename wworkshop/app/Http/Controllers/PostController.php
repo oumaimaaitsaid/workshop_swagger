@@ -19,7 +19,7 @@ class PostController extends Controller
 {
      /**
      * @OA\Get(
-     *     path="/api/posts",
+     *     path="/posts",
      *     summary="Liste des posts",
      *     tags={"Posts"},
      *     @OA\Response(

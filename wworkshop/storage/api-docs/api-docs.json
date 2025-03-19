@@ -7,13 +7,13 @@
     },
     "paths": {
         "/api": {},
-        "/api/posts": {
+        "/posts": {
             "get": {
                 "tags": [
                     "Posts"
                 ],
                 "summary": "Liste des posts",
-                "operationId": "e9eaf7df702a94f4443677bd1a36cfe6",
+                "operationId": "5f292ed47bdbfa79356750be0807450c",
                 "responses": {
                     "200": {
                         "description": "Liste des posts",
@@ -29,7 +29,9 @@
                         }
                     }
                 }
-            },
+            }
+        },
+        "/api/posts": {
             "post": {
                 "tags": [
                     "Posts"
